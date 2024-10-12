@@ -1,3 +1,12 @@
+
+
+ffmpeg -i ./data/test.720p.mp4 -vn -acodec pcm_s16le -ar 16000 -ac 1 output.wav
+
+
+
+
+
+
 # pyannote-whisper
 
 Run ASR and speaker diarization based on whisper and pyannote.audio.
